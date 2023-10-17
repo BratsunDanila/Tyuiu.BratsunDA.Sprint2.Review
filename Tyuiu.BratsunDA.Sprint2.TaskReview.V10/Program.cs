@@ -51,7 +51,6 @@ namespace Tyuiu.BratsunDA.Sprint2.TaskReview.V10
             }
 
 
-            Console.WriteLine("" + a + b + c);
             Console.ReadKey();
         }
     }
