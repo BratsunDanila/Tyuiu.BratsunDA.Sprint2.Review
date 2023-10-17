@@ -11,8 +11,8 @@ namespace Tyuiu.BratsunDA.Sprint2.TaskReview.V10.Test
         public void ValidCheckDotInShadedArea()
         {
             DataService ds = new DataService();
-            double x = 0;
-            double y = -1;
+            double x = 0.4;
+            double y = 0.4;
             bool res = ds.CheckDotInShadedArea(x, y);
             bool wait = true;
             Assert.AreEqual(wait, res);

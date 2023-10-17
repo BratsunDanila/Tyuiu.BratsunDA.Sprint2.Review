@@ -14,7 +14,7 @@ namespace Tyuiu.BratsunDA.Sprint2.TaskReview.V10.Lib
             bool a = (y >= x * x - 2);
             bool b = (y <= x);
             bool c = (y <= -x);
-            if (a && b && c)
+            if (a && b || c)
             {
                 return true;
             }
